@@ -74291,6 +74291,7 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 6: prevalenceWorldPer100k 11.5 from the Worldwide prevalence &quot;1.0 cases per 7,143 to 11,111&quot; (midpoint of the range); prevalencePer100k 13.13 from the US prevalence &quot;1.0 cases per 4,525 to 23,981&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;153.0&apos;; ARI_PrevalenceDesc &apos;Female 153/100k&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 6: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 13.13/100k; Prevalence Worldwide 11.5/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-25T17:54:19+00:00 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, is_grouping, name, obsolete, prevalence_desc, prevalence_value, synonyms</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Autoimmune Addison&apos;s Disease - Most common form, caused by immune attack on adrenal glands.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Drug-Induced Addison’s Disease - Caused by medications that affect adrenal hormone production.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Genetic Addison’s Disease - Due to inherited conditions affecting adrenal function.</ARI_ClinicalSubtype>
@@ -74300,6 +74301,7 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <ARI_DefSource>Olaffson 2016; https://pubmed.ncbi.nlm.nih.gov/26437215/</ARI_DefSource>
         <ARI_ICD10>E27.1</ARI_ICD10>
         <ARI_ID>ARI:0001006</ARI_ID>
+        <ARI_IsGrouping>false</ARI_IsGrouping>
         <ARI_MESH>D000224</ARI_MESH>
         <ARI_MONDO>0100480</ARI_MONDO>
         <ARI_NCI>C26689</ARI_NCI>
@@ -74320,6 +74322,7 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <ARI_SurveyCode>AD</ARI_SurveyCode>
         <ARI_Synonym>Autoimmune adrenalitis</ARI_Synonym>
         <ARI_Synonym>Primary adrenal insufficiency</ARI_Synonym>
+        <ARI_Synonym>test synonym</ARI_Synonym>
         <ARI_SynonymWithdrawn>Adrenal Insufficiency | broader | umbrella term including secondary/tertiary and non-autoimmune adrenal insufficiency</ARI_SynonymWithdrawn>
         <ARI_SynonymWithdrawn>Adrenal cortical hypofunction | broader | parent class of Addison&apos;s disease in the Disease Ontology; covers non-autoimmune causes</ARI_SynonymWithdrawn>
         <ARI_UMLS>C0001403</ARI_UMLS>
