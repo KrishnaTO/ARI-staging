@@ -69394,6 +69394,30 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#Sym_3772fb90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_3772fb90">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>100%</likelihood>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+        <rdfs:label>Fatigue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Sym_911e9839 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_911e9839">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>100%</likelihood>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+        <rdfs:label>Fatigue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#Sym_BlurredVision -->
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_BlurredVision">
@@ -73212,7 +73236,11 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 8: prevalenceWorldPer100k 0.1 from the Worldwide prevalence &quot;1.0 cases per 1,000,000&quot;; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 8: disease type Unconfirmed, 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 0.1/100k</ARI_ChangeLog>
-        <ARI_DefSource>NR; Systemic</ARI_DefSource>
+        <ARI_ChangeLog>2026-10-26T02:32:31+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T02:33:08+00:00 | Krishna Udaiwal | Edited: def_source</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T02:34:05+00:00 | Krishna Udaiwal | Deleted Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_DefSource>NR</ARI_DefSource>
+        <ARI_DefSource>Systemic</ARI_DefSource>
         <ARI_ID>ARI:0001007</ARI_ID>
         <ARI_MONDO>0017617</ARI_MONDO>
         <ARI_OMOP>37205096</ARI_OMOP>
@@ -73345,6 +73373,7 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001009_105"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001009_106"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001009_107"/>
+        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_911e9839"/>
         <targetsTissue rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tissue_NervousSystem"/>
         <ageRange>50-100 years</ageRange>
         <demographicBias>Female:male ratio 1.7. Regions with very high prevalence: North America and Western Europe (elderly populations)</demographicBias>
@@ -73362,6 +73391,7 @@ The cause of Kawasaki&apos;s Disease is uncertain but is believed to be autoimmu
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 9: prevalenceWorldPer100k 7500.0 from the Worldwide prevalence &quot;1.0 cases per 12 to 15&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;529523.0&apos;; ARI_PrevalenceDesc &apos;Female 326939/100k; Male 202584/100k; F:M ratio 1.61384&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 9: 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 7500.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T02:37:32+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Age-Related Macular Degeneration, Dry - Slow-progressing form with drusen deposits.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Age-Related Macular Degeneration, Wet - Rapid progression due to abnormal blood vessel growth.</ARI_ClinicalSubtype>
         <ARI_DOID>10871</ARI_DOID>
@@ -73855,6 +73885,7 @@ However, based on the research available at this time, there is no evidence that
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_2"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_3"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_4"/>
+        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_3772fb90"/>
         <involvesAPC rdf:resource="http://www.aurint.org/ontologies/ari-disease#APC_0001015_1"/>
         <involvesAntigen rdf:resource="http://www.aurint.org/ontologies/ari-disease#Antigen_0001015_1"/>
         <involvesTCell rdf:resource="http://www.aurint.org/ontologies/ari-disease#T_0001015_1"/>
@@ -73876,6 +73907,7 @@ However, based on the research available at this time, there is no evidence that
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 21: disease type Unconfirmed, 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:30:57+00:00 | KrishnaTO | Description from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 21 (Rose &amp; McKay definition column). Replaced: rdfs:comment &apos;0.5&apos;, the Incidence/Prevalence value from ARI Master List V 2.1 (2026-06-04), loaded as the description by the 2026-06-15 core-reports import.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.75/100k; Prevalence Worldwide 0.75/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T02:34:23+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
         <ARI_DefSource>1 million</ARI_DefSource>
         <ARI_ID>ARI:0001015</ARI_ID>
         <ARI_MONDO>0018977</ARI_MONDO>
